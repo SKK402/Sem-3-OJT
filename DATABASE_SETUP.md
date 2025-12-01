@@ -38,8 +38,8 @@ You should see the `postgres-products` container running.
 Create a `.env` file in the project root:
 
 ```env
-DATABASE_URL=postgresql+asyncpg://postgres:postgres@localhost:5432/products
-REDIS_URL=redis://localhost:6379/0
+DATABASE_URL=
+REDIS_URL=
 CACHE_TTL_SECONDS=120
 MAX_PAGE_SIZE=50
 DEFAULT_PAGE_SIZE=12
