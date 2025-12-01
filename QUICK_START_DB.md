@@ -13,8 +13,8 @@ docker run --name postgres-products -e POSTGRES_PASSWORD=postgres -e POSTGRES_DB
 Create a file named `.env` in the project root with:
 
 ```
-DATABASE_URL=postgresql+asyncpg://postgres:postgres@localhost:5432/products
-REDIS_URL=redis://localhost:6379/0
+DATABASE_URL=
+REDIS_URL=
 ```
 
 ### 3. Run database migrations
